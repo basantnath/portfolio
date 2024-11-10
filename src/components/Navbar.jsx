@@ -53,7 +53,7 @@ const Navbar = () => {
         variants={container}
         initial="hidden"
         animate="show"
-        className="w-full max-w-[350px] mx-auto fixed bottom-2 left-0 right-0 bg-white py-1.5 px-3 flex justify-center items-center rounded-2xl shadow-lg ring-1 ring-slate-200"
+        className="w-full max-w-[350px] mx-auto fixed bottom-0 left-0 right-0 bg-white py-1.5 px-3 flex justify-center items-center rounded-2xl shadow-lg ring-1 ring-slate-200"
       >
         <motion.div variants={item} className="flex space-x-3 md:space-x-4">
           {links.map((link, index) => (
