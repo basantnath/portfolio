@@ -1,7 +1,7 @@
 export default function ForYou() {
   return (
     <div className="container">
-      <h2 className="pro-con-heading heading mb-1 text-spotlight">Now Playing 😉 </h2>
+      <h2 className="pro-con-heading heading mb-1 text-spotlight">Feel the Beat </h2>
       <p className="pro-con-cont mb-2 text-spotlight">
         Here's what I'm currently listening to:{" "}
       </p>
