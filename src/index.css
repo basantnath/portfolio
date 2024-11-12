@@ -14,7 +14,7 @@
     @apply text-3xl font-bold tracking-tight text-indigo-400;
     }
     .pro-con-cont{
-      @apply text-gray-600 text-md;
+      @apply text-gray-600 text-base;
     }
   }
 body {
