@@ -6,7 +6,7 @@ export default function Profile() {
           <h1 className="text-3xl font-semibold text-gray-900 heading profile-selection">
             Hi👋, I am Basant
           </h1>
-          <p className="mt-2 text-lg text-gray-700 opacity-90 profile-selection">
+          <p className="mt-2 text-lg text-gray-900 opacity-90 profile-selection">
             <em className="text-lg cursive text-indigo-400 font-semibold profile-selection ">
               Front-end Developer
             </em>
