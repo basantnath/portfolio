@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full p-4">
+    <div className="min-h-screen w-full ">
       <ScrollProgressBar />
       <ScrollToTop />
       <Greeting />
