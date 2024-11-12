@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="container ">
       <h2 className="mb-2 heading pro-con-heading text-highlight">About Me</h2>
-      <p className="pro-con-cont text-highlight">
+      <p className="pro-con-cont text-highlight break-words">
         Hello again! I'm Basant,{" "}
         <span className="underline text-gray-900 text-highlight">
           currently a 4th semester student
