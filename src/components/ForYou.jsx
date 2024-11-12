@@ -7,10 +7,10 @@ export default function ForYou() {
       </p>
       <div className="mb-6 select-none">
         <iframe
-          style={{ borderRadius: "15px" }}
+          style={{ borderRadius: "13px" }}
           src="https://open.spotify.com/embed/playlist/4g6KycQ9JL1IvyNboEF6jH?utm_source=generator"
           width="100%"
-          height="100"
+          height="400"
           allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
