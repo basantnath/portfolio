@@ -51,17 +51,8 @@ const ProjectCard = ({ project }) => (
 export default function Projects() {
   return (
     <div className="container">
-      <div
-        className="text-center space-y-4 mb-10 mt-6"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-        <span
-          className="s-p-button"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
+      <div className="text-center space-y-4 mb-10 mt-6">
+        <span className="s-p-button">
           <div className="flex items-center space-x-2 select-none">
             <span>Projects</span>
             <span>
@@ -72,12 +63,7 @@ export default function Projects() {
         <h2 className="pro-con-heading text-spotlight">
           Check out my latest work
         </h2>
-        <p
-          className="pro-con-cont text-spotlight"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-        >
+        <p className="pro-con-cont text-spotlight">
           Here are a few projects that showcase my skills and interests
         </p>
       </div>

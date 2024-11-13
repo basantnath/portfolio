@@ -11,7 +11,8 @@
       @apply inline-block px-4 py-1 rounded-md bg-[#101214] text-white text-sm font-medium;
     }
     .pro-con-heading{
-    @apply text-3xl font-bold tracking-tight text-indigo-400;
+    @apply text-2xl font-bold tracking-tight text-indigo-400
+    ;
     }
     .pro-con-cont{
       @apply text-gray-600 text-base;

@@ -1,8 +1,8 @@
 export default function ForYou() {
   return (
-    <div className="container">
-      <h2 className="pro-con-heading heading mb-1 text-spotlight">Feel the Beat </h2>
-      <p className="pro-con-cont mb-2 text-spotlight">
+    <div className="container text-center">
+      <h2 className="s-p-button mb-3">Feel the Beat </h2>
+      <p className="pro-con-heading text-spotlight mb-3">
         Here's what I'm currently listening to:{" "}
       </p>
       <div className="mb-6 select-none">

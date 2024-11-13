@@ -9,6 +9,7 @@ import Projects from "./components/Projects.jsx";
 import Greeting from "./components/Greeting.jsx";
 import ScrollProgressBar from "./components/ScrollProgressBar.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import Gallery from "./components/Gallery.jsx";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Skills />
       <Projects />
       <ForYou />
+      <Gallery />
       <Contact />
       <Navbar />
     </div>
